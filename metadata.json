@@ -1,0 +1,6 @@
+{
+  "name": "Sanskurti",
+  "description": "Sanskurti — Exclusive Private Video Calling & Concierge Rooms.",
+  "requestFramePermissions": ["camera", "microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
