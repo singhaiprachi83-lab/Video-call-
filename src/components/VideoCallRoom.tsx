@@ -248,15 +248,13 @@ export function VideoCallRoom({
           callConnected ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'
         }`}
       >
-        <video
-          ref={remoteVideoRef}
-          src="/assets/aistudio/VID20261123202221_4004bba9.mp4"
-          preload="auto"
-          playsInline
-          loop
-          className="h-full w-full object-cover"
-        />
-        <div
+        <iframe
+  src="https://go.screenpal.com/player/cOXZcTn4HaJ?ff=1&ahc=1&dcc=1&tl=1&bg=transparent&share=1&download=1&embed=1&cl=1"
+  title="Sanskurti Video"
+  className="h-full w-full border-0"
+  allow="autoplay; fullscreen"
+  allowFullScreen
+/>
           aria-hidden="true"
           className="pointer-events-none absolute inset-x-0 top-0 h-28 bg-gradient-to-b from-black/70 to-transparent"
         />
